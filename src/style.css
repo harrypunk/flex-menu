@@ -22,17 +22,17 @@ nav {
 }
 
 .nav-links > li {
-  flex-grow: 1;
   height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   color: white;
   text-transform: uppercase;
+  padding: 10px;
 }
 
 .nav-links > li:nth-child(1) {
-  flex-grow: 10;
+  flex-grow: 1;
 }
 
 .nav-links li:hover {
