@@ -31,6 +31,10 @@ nav {
   text-transform: uppercase;
 }
 
+.nav-links > li:nth-child(1) {
+  flex-grow: 10;
+}
+
 .nav-links li:hover {
   background-color: lightcoral;
   cursor: pointer;
