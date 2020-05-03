@@ -21,9 +21,12 @@ nav {
   align-items: center;
 }
 
-.nav-links > li{
+.nav-links > li {
   flex-grow: 1;
   height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .nav-links li:hover {
@@ -31,15 +34,8 @@ nav {
 }
 
 .nav-links li a {
-  display: inline-block;
-  padding-top: auto;
-  padding-bottom: auto;
   color: white;
   text-decoration: none;
-  text-align: center;
-  margin: auto;
   font-size: 16px;
   text-transform: uppercase;
-  height: 100%;
-  width: 100%;
 }
