@@ -42,3 +42,11 @@ nav {
 .nav-links li:first-child:hover {
   background-color: yellow;
 }
+
+/* .nav-links li:first-child ~ li {
+    display: none;
+} */
+
+.nav-links li:first-child:hover ~ li {
+    background-color: turquoise;
+}
