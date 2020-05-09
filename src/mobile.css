@@ -9,7 +9,7 @@ body {
 }
 
 nav {
-    background-color: paleturquoise;
+  background-color: bisque;
 }
 
 .nav-links {
@@ -26,24 +26,18 @@ nav {
   justify-content: center;
   align-items: center;
   color: white;
+  background-color: turquoise;
 }
 
-
-.nav-links li:hover {
+.nav-links > li:hover {
   background-color: lightcoral;
   cursor: pointer;
 }
 
-
-.nav-links li:first-child:hover {
-  background-color: orchid;
+.nav-links > li:not(:first-child) {
+  display: none;
 }
 
-.nav-links li:first-child ~ li {
-    display: none;
-}
-
-.nav-links li:first-child:hover ~ li {
-    background-color: turquoise;
-    display: flex;
+.nav-links:hover > li:not(:first-child) {
+  display: flex;
 }
