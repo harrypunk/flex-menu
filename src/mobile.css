@@ -9,7 +9,7 @@ body {
 }
 
 nav {
-  height: 10vh;
+  height: 40vh;
   background: #5b78c7;
 }
 
@@ -18,7 +18,7 @@ nav {
   list-style: none;
   height: 100%;
   justify-content: space-between;
-  align-items: center;
+  align-items: stretch;
   flex-direction: column;
 }
 
@@ -38,3 +38,7 @@ nav {
   cursor: pointer;
 }
 
+
+.nav-links li:first-child:hover {
+  background-color: yellow;
+}
